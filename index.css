@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15%;
+  text-align:center;
+  color:blue;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+
+}
+
+/*****Large devices only *****/
+@media (min-width: 992px) {
+   .col-lg-4{
+    float: left;
+    width: 33.33%;
+  }
+  .col-lg-12{
+    float: left;
+    width: 100%;
+  }
+  .title {
+    
+  top: 0%;left: 45%;position :absolute;}
+ }
+
+/***** Medium devices only *****/
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-6,.col-md-12 {
+    float:left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%; 
+  }
+  .title {
+    
+  top: 0%;left: 45%;position :absolute;}
+}
