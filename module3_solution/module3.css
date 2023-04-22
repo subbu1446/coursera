@@ -6,7 +6,9 @@ h2{
   text-align:center;
   color:gold;
 }
-
+.container-fluid{
+  background-color: blue;
+}
 .collapse{
   width:100%;
   top:0;text-align: center;
