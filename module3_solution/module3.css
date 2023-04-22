@@ -1,0 +1,66 @@
+/***** Base styles *****/
+* {
+  box-sizing: border-box;
+}
+h2{
+  text-align:center;
+  color:gold;
+}
+
+.collapse{
+  width:100%;
+  top:0;text-align: center;
+}
+ul{
+  list-style-type: none; /* Remove bullets */
+  padding: 10px; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+.heading {
+   font-size: 30px;
+  text-align:center;
+  color:red;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.button{
+  width:100%;
+  padding :10px;
+}
+.container{
+  position: relative;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  margin: 50px;background-color: green;
+}
+p{
+  padding:20px;color:white;font-family:Arial, Helvetica, sans-serif;
+}
+#title1 {
+  text-align:center;
+  font-size: 25px;
+  color:deepskyblue;
+}
+ #title2 {
+  text-align:center;
+  font-size: 25px;
+  color:hotpink;
+}
+#title3 {
+  text-align:center;
+  font-size: 25px;
+  color:orange;
+}
+.content{
+   padding:20px;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+
+}
+.navbar-toggle collapsed{
+  float:left;
+}
